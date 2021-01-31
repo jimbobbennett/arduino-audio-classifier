@@ -2,7 +2,7 @@
 #include "Classifier.h"
 
 // tune as per your needs
-#define SAMPLES 64
+#define SAMPLES 128
 #define GAIN (1.0f/50)
 #define SOUND_THRESHOLD 1000
 
