@@ -22,7 +22,7 @@ void setup() {
 
 void loop() {
     if (recordAudioSample()) {
-        Serial.print("You said: ");
+        Serial.print("Sound number: ");
         Serial.println(clf.predictLabel(features));
 
         delay(1000);
